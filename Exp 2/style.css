@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap');
+  background-color: rgba(255, 255, 255, 0.95);
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+.booking-box h2 {
+  text-align: center;
+  color: #3f51b5;
+  margin-bottom: 25px;
+}
+
+.booking-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.booking-form input,
+.booking-form select,
+.booking-form textarea {
+  margin-bottom: 15px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 15px;
+  background-color: #f9f9f9;
+}
+
+.booking-form .row {
+  display: flex;
+  gap: 15px;
+}
+
+.booking-form textarea {
+  height: 80px;
+  resize: none;
+}
+
+.booking-form button {
+  padding: 12px;
+  background-color: #3f51b5;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.booking-form button:hover {
+  background-color: #2c387e;
+}
+
+.footer {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 13px;
+  color: #777;
+}
