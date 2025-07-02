@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Bus Ticket Booking</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="booking-container">
+    <h1>Bus Ticket Booking</h1>
+    <form action="book.php" method="post">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Email" required />
+      <input type="text" name="from" placeholder="From" required />
+      <input type="text" name="to" placeholder="To" required />
+      <input type="date" name="date" required />
+      <select name="seat" required>
+        <option value="">Select Seat</option>
+        <option value="1A">1A</option>
+        <option value="1B">1B</option>
+        <option value="2A">2A</option>
+        <option value="2B">2B</option>
+      </select>
+      <button type="submit">Confirm Booking</button>
+    </form>
+  </div>
+</body>
+</html>
