@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flight Reservation System</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <h1>✈ Flight Reservation</h1>
+    <form class="flight-form" action="book_flight.php" method="post">
+      <input type="text" name="name" placeholder="Full Name" required>
+      <input type="email" name="email" placeholder="Email" required>
+      <input type="text" name="departure" placeholder="From" required>
+      <input type="text" name="destination" placeholder="To" required>
+      <input type="date" name="depart_date" required>
+      <input type="date" name="return_date">
+      <select name="flight_class" required>
+        <option value="">Select Class</option>
+        <option value="economy">Economy</option>
+        <option value="business">Business</option>
+        <option value="first">First Class</option>
+      </select>
+      <button type="submit">Book Flight</button>
+    </form>
+    <p class="footer">© 2025 Flight System. All rights reserved.</p>
+  </div>
+</body>
+</html>
