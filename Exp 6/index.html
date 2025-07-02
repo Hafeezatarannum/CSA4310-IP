@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Online Cake Ordering</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🎂 Order Your Cake</h1>
+    <form action="order.php" method="post">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="text" name="phone" placeholder="Phone Number" required />
+      <input type="email" name="email" placeholder="Email Address" required />
+      <select name="cake_type" required>
+        <option value="">Select Cake Type</option>
+        <option value="Chocolate">Chocolate</option>
+        <option value="Vanilla">Vanilla</option>
+        <option value="Black Forest">Black Forest</option>
+        <option value="Red Velvet">Red Velvet</option>
+      </select>
+      <input type="number" name="quantity" placeholder="Quantity" min="1" required />
+      <textarea name="message" placeholder="Any special message on the cake?" rows="3"></textarea>
+      <button type="submit">Place Order</button>
+    </form>
+  </div>
+</body>
+</html>
